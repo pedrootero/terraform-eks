@@ -10,7 +10,7 @@ resource "aws_subnet" "private_subnet_1a" {
   
 }
 
-resource "aws_subnet" "private_subnet_1a" {
+resource "aws_subnet" "private_subnet_1c" {
     vpc_id = aws_vpc.cluster_vpc.id
         cidr_block = "10.0.48.0/20"
 
